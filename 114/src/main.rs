@@ -4,7 +4,7 @@ fn reverseSplit(s: &str, delimiters: Vec<char>) -> String {
     let mut splits = s.chars().filter(|c: &char| delimiters.contains(c));
 
     let mut buffer: String = String::new();
-    
+
     for word in parts {
         print!("{}", word);
         buffer.push_str(word);
